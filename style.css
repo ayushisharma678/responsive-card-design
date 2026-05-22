@@ -1,0 +1,103 @@
+body{
+    background-color: lightgray;
+    color: black;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-item{
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
+}
+    
+.card-item:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+#developer{
+    margin-top: 30px;
+    color: lightpink;
+    text-align: left;
+    border: 2px solid palevioletred;
+    background-color: palevioletred;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#designer{
+    margin-top: 30px;
+    color: green;
+    text-align: left;
+    border: 2px solid lightseagreen;
+    background-color: lightseagreen;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#editor{
+    margin-top: 30px;
+    color: lightblue;
+    text-align: left;
+    border: 2px solid blue;
+    background-color: blue;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image{
+    object-fit: cover;
+    object-position: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #3498db;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.circle .arrow {
+  width: 25px;
+  height: 25px;
+  border-top: 6px solid white;
+  border-right: 6px solid white;
+  
+
+  transform: rotate(45deg); 
+  
+
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid lightslategray;   
+    padding: 15px 30px;
+    
+    display: table;     
+    
+    margin: 100px auto 0 auto; 
+}
+
